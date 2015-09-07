@@ -1,1 +1,2 @@
-# Appodeal cocos2d-x sample project
+
+# Appodeal-Cocos2d-x-integration
