@@ -51,23 +51,6 @@
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		6CB44EB08483AB06D2A9F135 /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F24654816B3B91E6C6DEE6 /* libcocos2d Mac.a */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
-		892E06481B97076E00135395 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E06361B97076E00135395 /* Appodeal.framework */; };
-		892E06491B97076E00135395 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 892E06381B97076E00135395 /* __vungle.db */; };
-		892E064A1B97076E00135395 /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06391B97076E00135395 /* appodeal_pattern.png */; };
-		892E064B1B97076E00135395 /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E063A1B97076E00135395 /* appodeal_pattern@2x.png */; };
-		892E064C1B97076E00135395 /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 892E063B1B97076E00135395 /* MPAdBrowserController.nib */; };
-		892E064D1B97076E00135395 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E063C1B97076E00135395 /* MPCloseButtonX.png */; };
-		892E064E1B97076E00135395 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E063D1B97076E00135395 /* MPCloseButtonX@2x.png */; };
-		892E064F1B97076E00135395 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E063E1B97076E00135395 /* MPCloseButtonX@3x.png */; };
-		892E06501B97076E00135395 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892E063F1B97076E00135395 /* MRAID.bundle */; };
-		892E06511B97076E00135395 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892E06401B97076E00135395 /* StartApp.bundle */; };
-		892E06521B97076E00135395 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892E06411B97076E00135395 /* SVProgressHUD.bundle */; };
-		892E06531B97076E00135395 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 892E06421B97076E00135395 /* UnityAds.bundle */; };
-		892E06541B97076E00135395 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06431B97076E00135395 /* vg_close.png */; };
-		892E06551B97076E00135395 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06441B97076E00135395 /* vg_cta.png */; };
-		892E06561B97076E00135395 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06451B97076E00135395 /* vg_mute_off.png */; };
-		892E06571B97076E00135395 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06461B97076E00135395 /* vg_mute_on.png */; };
-		892E06581B97076E00135395 /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 892E06471B97076E00135395 /* vg_privacy.png */; };
 		892E065A1B97091300135395 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E06591B97091300135395 /* AdSupport.framework */; };
 		892E06741B9709B000135395 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E065B1B9709AF00135395 /* AudioToolbox.framework */; };
 		892E06751B9709B000135395 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E065C1B9709AF00135395 /* AVFoundation.framework */; };
@@ -159,23 +142,6 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		892E06361B97076E00135395 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
-		892E06381B97076E00135395 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
-		892E06391B97076E00135395 /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
-		892E063A1B97076E00135395 /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
-		892E063B1B97076E00135395 /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPAdBrowserController.nib; sourceTree = "<group>"; };
-		892E063C1B97076E00135395 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
-		892E063D1B97076E00135395 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
-		892E063E1B97076E00135395 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
-		892E063F1B97076E00135395 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
-		892E06401B97076E00135395 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
-		892E06411B97076E00135395 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		892E06421B97076E00135395 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
-		892E06431B97076E00135395 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
-		892E06441B97076E00135395 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
-		892E06451B97076E00135395 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
-		892E06461B97076E00135395 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
-		892E06471B97076E00135395 /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
 		892E06591B97091300135395 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		892E065B1B9709AF00135395 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		892E065C1B9709AF00135395 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -260,7 +226,6 @@
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
-				892E06481B97076E00135395 /* Appodeal.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 				19C4439EA13C040808B1A4F5 /* libcocos2d iOS.a in Frameworks */,
@@ -476,34 +441,9 @@
 			path = Appodeal;
 			sourceTree = "<group>";
 		};
-		892E06371B97076E00135395 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				892E06381B97076E00135395 /* __vungle.db */,
-				892E06391B97076E00135395 /* appodeal_pattern.png */,
-				892E063A1B97076E00135395 /* appodeal_pattern@2x.png */,
-				892E063B1B97076E00135395 /* MPAdBrowserController.nib */,
-				892E063C1B97076E00135395 /* MPCloseButtonX.png */,
-				892E063D1B97076E00135395 /* MPCloseButtonX@2x.png */,
-				892E063E1B97076E00135395 /* MPCloseButtonX@3x.png */,
-				892E063F1B97076E00135395 /* MRAID.bundle */,
-				892E06401B97076E00135395 /* StartApp.bundle */,
-				892E06411B97076E00135395 /* SVProgressHUD.bundle */,
-				892E06421B97076E00135395 /* UnityAds.bundle */,
-				892E06431B97076E00135395 /* vg_close.png */,
-				892E06441B97076E00135395 /* vg_cta.png */,
-				892E06451B97076E00135395 /* vg_mute_off.png */,
-				892E06461B97076E00135395 /* vg_mute_on.png */,
-				892E06471B97076E00135395 /* vg_privacy.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		892E06961B971FD500135395 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				892E06361B97076E00135395 /* Appodeal.framework */,
-				892E06371B97076E00135395 /* Resources */,
 				892E06981B97207B00135395 /* AppodealIOSHelper.mm */,
 				89DB36A81B98266C009CA3C3 /* AppodealIOSHelper.h */,
 			);
@@ -587,13 +527,8 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
-				892E064C1B97076E00135395 /* MPAdBrowserController.nib in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
-				892E06541B97076E00135395 /* vg_close.png in Resources */,
-				892E064D1B97076E00135395 /* MPCloseButtonX.png in Resources */,
-				892E06521B97076E00135395 /* SVProgressHUD.bundle in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
-				892E06581B97076E00135395 /* vg_privacy.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
@@ -603,22 +538,11 @@
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
-				892E06551B97076E00135395 /* vg_cta.png in Resources */,
-				892E06501B97076E00135395 /* MRAID.bundle in Resources */,
-				892E064B1B97076E00135395 /* appodeal_pattern@2x.png in Resources */,
-				892E064E1B97076E00135395 /* MPCloseButtonX@2x.png in Resources */,
-				892E06561B97076E00135395 /* vg_mute_off.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
-				892E06491B97076E00135395 /* __vungle.db in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
-				892E06511B97076E00135395 /* StartApp.bundle in Resources */,
-				892E06531B97076E00135395 /* UnityAds.bundle in Resources */,
-				892E06571B97076E00135395 /* vg_mute_on.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
-				892E064F1B97076E00135395 /* MPCloseButtonX@3x.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
-				892E064A1B97076E00135395 /* appodeal_pattern.png in Resources */,
 				D4F2479D9F9C2B3CEDE0CB19 /* res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
