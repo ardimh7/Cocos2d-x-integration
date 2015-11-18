@@ -49,6 +49,12 @@ void videoDidPresent(){CCLOG("Appodeal: videoDidPresent");}
 void videoWillDismiss(){CCLOG("Appodeal: videoWillDismiss");}
 void videoDidFinish(){CCLOG("Appodeal: videoDidFinish");}
 
+void rewardedVideoDidLoadAd(){CCLOG("Appodeal: rewardedVideoDidLoadAd");}
+void rewardedVideoDidFailToLoadAd(){CCLOG("Appodeal: rewardedVideoDidFailToLoadAd");}
+void rewardedVideoDidPresent(){CCLOG("Appodeal: rewardedVideoDidPresent");}
+void rewardedVideoWillDismiss(){CCLOG("Appodeal: rewardedVideoWillDismiss");}
+void rewardedVideoDidFinish(int amount, const char* name){CCLOG("Appodeal: rewardedVideoDidFinish: %s = %d", name, amount);}
+
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
 {
@@ -88,6 +94,13 @@ bool HelloWorld::init()
                                        videoDidPresent,
                                        videoWillDismiss,
                                        videoDidFinish);
+            
+            appodeal->setRewardedVideoDelegate(
+                                               rewardedVideoDidLoadAd,
+                                               rewardedVideoDidFailToLoadAd,
+                                               rewardedVideoDidPresent,
+                                               rewardedVideoWillDismiss,
+                                               rewardedVideoDidFinish);
         });
     }
     
@@ -115,6 +128,15 @@ bool HelloWorld::init()
         buttonVideo->addClickEventListener([=](Ref *){
             CCLOG("Pressed video");
             appodeal->show(AppodealAdType::VIDEO);
+        });
+    }
+    
+    auto buttonRewarded = static_cast< cocos2d::ui::Button*>(rootNode->getChildByName("button_Rewarded"));
+    if(buttonRewarded)
+    {
+        buttonRewarded->addClickEventListener([=](Ref *){
+            CCLOG("Pressed rewarded");
+            appodeal->show(AppodealAdType::REWARDED_VIDEO);
         });
     }
     

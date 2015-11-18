@@ -146,6 +146,22 @@ void AppodealInterface::setVideoDelegate(
                                   videoDidFinish);
 }
 
+void AppodealInterface::setRewardedVideoDelegate(
+                                                 void (*rewardedVideoDidLoadAd)(),
+                                                 void (*rewardedVideoDidFailToLoadAd)(),
+                                                 void (*rewardedVideoDidPresent)(),
+                                                 void (*rewardedVideoWillDismiss)(),
+                                                 void (*rewardedVideoDidFinish)(int, const char *))
+{
+    AppodealIOSHelper* appodealIos = new AppodealIOSHelper();
+    appodealIos->setRewardedVideoDelegate(
+                                          rewardedVideoDidLoadAd,
+                                          rewardedVideoDidFailToLoadAd,
+                                          rewardedVideoDidPresent,
+                                          rewardedVideoWillDismiss,
+                                          rewardedVideoDidFinish);
+}
+
 AppodealInterface::AppodealInterface()
 {
 }

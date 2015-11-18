@@ -66,6 +66,28 @@ APPODEAL_DELEGATE_METHOD(videoDidFinish)
 APPODEAL_DELEGATE_METHOD(videoDidPresent)
 @end
 
+
+
+@interface AppodealRewardedVideoDelegate : NSObject <AppodealRewardedVideoDelegate>
+APPODEAL_DELEGATE_PROPERTY(rewardedVideoDidLoadAd)
+APPODEAL_DELEGATE_PROPERTY(rewardedVideoDidFailToLoadAd)
+APPODEAL_DELEGATE_PROPERTY(rewardedVideoDidPresent)
+APPODEAL_DELEGATE_PROPERTY(rewardedVideoWillDismiss)
+@property (assign, nonatomic) AppodealNativeRewardDelegate rewardedVideoDidFinishDelegate;
+@end
+
+@implementation AppodealRewardedVideoDelegate
+APPODEAL_DELEGATE_METHOD(rewardedVideoDidLoadAd)
+APPODEAL_DELEGATE_METHOD(rewardedVideoDidFailToLoadAd)
+APPODEAL_DELEGATE_METHOD(rewardedVideoDidPresent)
+APPODEAL_DELEGATE_METHOD(rewardedVideoWillDismiss)
+-(void)rewardedVideoDidFinish:(NSUInteger)rewardAmount name:(NSString *)rewardName
+{
+    if([self rewardedVideoDidFinishDelegate])
+        [self rewardedVideoDidFinishDelegate]((int)rewardAmount, [rewardName cStringUsingEncoding:NSASCIIStringEncoding]);
+}
+@end
+
 ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////
@@ -76,8 +98,9 @@ const int BANNER        = 4;
 const int BANNER_BOTTOM = 8;
 const int BANNER_TOP    = 16;
 const int BANNER_CENTER = 32;
-const int ALL           = 127;
-const int ANY           = 127;
+const int REWARDED_VIDEO= 128;
+const int ALL           = 255;
+const int ANY           = 255;
 
 int nativeAdTypesForType(int adTypes) {
     int nativeAdTypes = 0;
@@ -96,6 +119,10 @@ int nativeAdTypesForType(int adTypes) {
         (adTypes & BANNER_BOTTOM) > 0) {
         
         nativeAdTypes |= AppodealAdTypeBanner;
+    }
+    
+    if ((adTypes & REWARDED_VIDEO) > 0) {
+        nativeAdTypes |= AppodealAdTypeRewardedVideo;
     }
     
     return nativeAdTypes;
@@ -123,6 +150,10 @@ AppodealShowStyle nativeShowStyleForType(int adTypes) {
     
     if ((adTypes & BANNER_BOTTOM) > 0) {
         return AppodealShowStyleBannerBottom;
+    }
+    
+    if ((adTypes & REWARDED_VIDEO) > 0) {
+        return AppodealShowStyleRewardedVideo;
     }
     
     return AppodealShowStyle::AppodealShowStyleBannerBottom;
@@ -221,6 +252,24 @@ void AppodealIOSHelper::setVideoDelegate(
     videoDelegate.videoDidFinishDelegate = videoDidFinish;
     
     [Appodeal setVideoDelegate:videoDelegate];
+}
+
+static AppodealRewardedVideoDelegate * rewardedVideoDelegate;
+void AppodealIOSHelper::setRewardedVideoDelegate(
+                                   AppodealNativeDelegate rewardedVideoDidLoadAd,
+                                   AppodealNativeDelegate rewardedVideoDidFailToLoadAd,
+                                   AppodealNativeDelegate rewardedVideoDidPresent,
+                                   AppodealNativeDelegate rewardedVideoWillDismiss,
+                                   AppodealNativeRewardDelegate rewardedVideoDidFinish)
+{
+    rewardedVideoDelegate = [AppodealRewardedVideoDelegate new];
+    rewardedVideoDelegate.rewardedVideoDidLoadAdDelegate = rewardedVideoDidLoadAd;
+    rewardedVideoDelegate.rewardedVideoDidFailToLoadAdDelegate = rewardedVideoDidFailToLoadAd;
+    rewardedVideoDelegate.rewardedVideoDidPresentDelegate = rewardedVideoDidPresent;
+    rewardedVideoDelegate.rewardedVideoWillDismissDelegate = rewardedVideoWillDismiss;
+    rewardedVideoDelegate.rewardedVideoDidFinishDelegate = rewardedVideoDidFinish;
+    
+    [Appodeal setRewardedVideoDelegate:rewardedVideoDelegate];
 }
 
 /////////////////////////////////////////////////////////

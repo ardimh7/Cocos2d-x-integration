@@ -78,6 +78,47 @@
 		892E068B1B9709B000135395 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E06721B9709B000135395 /* UIKit.framework */; };
 		892E068C1B9709B000135395 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E06731B9709B000135395 /* WebKit.framework */; };
 		892E068E1B970A2200135395 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E068D1B970A2200135395 /* GameController.framework */; };
+		8940115F1BFCA1C9009D5F1A /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 894011381BFCA1C9009D5F1A /* __vungle.db */; };
+		894011601BFCA1C9009D5F1A /* AdManagerAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011391BFCA1C9009D5F1A /* AdManagerAssets.bundle */; };
+		894011611BFCA1C9009D5F1A /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113A1BFCA1C9009D5F1A /* appodeal_adbadge.png */; };
+		894011621BFCA1C9009D5F1A /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113B1BFCA1C9009D5F1A /* appodeal_adbadge@2x.png */; };
+		894011631BFCA1C9009D5F1A /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113C1BFCA1C9009D5F1A /* appodeal_adbadge@3x.png */; };
+		894011641BFCA1C9009D5F1A /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113D1BFCA1C9009D5F1A /* appodeal_close.png */; };
+		894011651BFCA1C9009D5F1A /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113E1BFCA1C9009D5F1A /* appodeal_pattern.png */; };
+		894011661BFCA1C9009D5F1A /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940113F1BFCA1C9009D5F1A /* appodeal_pattern@2x.png */; };
+		894011671BFCA1C9009D5F1A /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 894011401BFCA1C9009D5F1A /* MPAdBrowserController.nib */; };
+		894011681BFCA1C9009D5F1A /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011411BFCA1C9009D5F1A /* MPCloseBtn.png */; };
+		894011691BFCA1C9009D5F1A /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011421BFCA1C9009D5F1A /* MPCloseBtn@2x.png */; };
+		8940116A1BFCA1C9009D5F1A /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011431BFCA1C9009D5F1A /* MPCloseBtn@3x.png */; };
+		8940116B1BFCA1C9009D5F1A /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011441BFCA1C9009D5F1A /* MPCloseButtonX.png */; };
+		8940116C1BFCA1C9009D5F1A /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011451BFCA1C9009D5F1A /* MPCloseButtonX@2x.png */; };
+		8940116D1BFCA1C9009D5F1A /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011461BFCA1C9009D5F1A /* MPCloseButtonX@3x.png */; };
+		8940116E1BFCA1C9009D5F1A /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011471BFCA1C9009D5F1A /* MPDAAIcon.png */; };
+		8940116F1BFCA1C9009D5F1A /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011481BFCA1C9009D5F1A /* MPDAAIcon@2x.png */; };
+		894011701BFCA1C9009D5F1A /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011491BFCA1C9009D5F1A /* MPDAAIcon@3x.png */; };
+		894011711BFCA1C9009D5F1A /* MPMutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114A1BFCA1C9009D5F1A /* MPMutedBtn@1x.png */; };
+		894011721BFCA1C9009D5F1A /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114B1BFCA1C9009D5F1A /* MPMutedBtn@2x.png */; };
+		894011731BFCA1C9009D5F1A /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114C1BFCA1C9009D5F1A /* MPMutedBtn@3x.png */; };
+		894011741BFCA1C9009D5F1A /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114D1BFCA1C9009D5F1A /* MPPlayBtn.png */; };
+		894011751BFCA1C9009D5F1A /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114E1BFCA1C9009D5F1A /* MPPlayBtn@2x.png */; };
+		894011761BFCA1C9009D5F1A /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940114F1BFCA1C9009D5F1A /* MPPlayBtn@3x.png */; };
+		894011771BFCA1C9009D5F1A /* MPUnmutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011501BFCA1C9009D5F1A /* MPUnmutedBtn@1x.png */; };
+		894011781BFCA1C9009D5F1A /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011511BFCA1C9009D5F1A /* MPUnmutedBtn@2x.png */; };
+		894011791BFCA1C9009D5F1A /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011521BFCA1C9009D5F1A /* MPUnmutedBtn@3x.png */; };
+		8940117A1BFCA1C9009D5F1A /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011531BFCA1C9009D5F1A /* MRAID.bundle */; };
+		8940117B1BFCA1C9009D5F1A /* RFMAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011541BFCA1C9009D5F1A /* RFMAdSDK.bundle */; };
+		8940117C1BFCA1C9009D5F1A /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011551BFCA1C9009D5F1A /* StartApp.bundle */; };
+		8940117D1BFCA1C9009D5F1A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011561BFCA1C9009D5F1A /* SVProgressHUD.bundle */; };
+		8940117E1BFCA1C9009D5F1A /* TOWebViewControllerLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011571BFCA1C9009D5F1A /* TOWebViewControllerLocalizable.bundle */; };
+		8940117F1BFCA1C9009D5F1A /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 894011581BFCA1C9009D5F1A /* UnityAds.bundle */; };
+		894011801BFCA1C9009D5F1A /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 894011591BFCA1C9009D5F1A /* vg_close.png */; };
+		894011811BFCA1C9009D5F1A /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940115A1BFCA1C9009D5F1A /* vg_cta.png */; };
+		894011821BFCA1C9009D5F1A /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940115B1BFCA1C9009D5F1A /* vg_mute_off.png */; };
+		894011831BFCA1C9009D5F1A /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940115C1BFCA1C9009D5F1A /* vg_mute_on.png */; };
+		894011841BFCA1C9009D5F1A /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940115D1BFCA1C9009D5F1A /* vg_privacy.png */; };
+		894011851BFCA1C9009D5F1A /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8940115E1BFCA1C9009D5F1A /* Appodeal.framework */; };
+		894011871BFCA1FF009D5F1A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894011861BFCA1FF009D5F1A /* JavaScriptCore.framework */; };
+		894011891BFCA33C009D5F1A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894011881BFCA33C009D5F1A /* Twitter.framework */; };
 		89DB36A71B98263F009CA3C3 /* AppodealInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DB36A61B98263F009CA3C3 /* AppodealInterface.cpp */; };
 		89DB36A91B983FAB009CA3C3 /* AppodealIOSHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 892E06981B97207B00135395 /* AppodealIOSHelper.mm */; };
 		89DB36AA1B983FAB009CA3C3 /* AppodealIOSHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 89DB36A81B98266C009CA3C3 /* AppodealIOSHelper.h */; };
@@ -171,6 +212,47 @@
 		892E068D1B970A2200135395 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		892E06971B971FF300135395 /* AppodealInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealInterface.h; sourceTree = "<group>"; };
 		892E06981B97207B00135395 /* AppodealIOSHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppodealIOSHelper.mm; sourceTree = "<group>"; };
+		894011381BFCA1C9009D5F1A /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		894011391BFCA1C9009D5F1A /* AdManagerAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdManagerAssets.bundle; sourceTree = "<group>"; };
+		8940113A1BFCA1C9009D5F1A /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_adbadge.png; sourceTree = "<group>"; };
+		8940113B1BFCA1C9009D5F1A /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@2x.png"; sourceTree = "<group>"; };
+		8940113C1BFCA1C9009D5F1A /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@3x.png"; sourceTree = "<group>"; };
+		8940113D1BFCA1C9009D5F1A /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_close.png; sourceTree = "<group>"; };
+		8940113E1BFCA1C9009D5F1A /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
+		8940113F1BFCA1C9009D5F1A /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
+		894011401BFCA1C9009D5F1A /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPAdBrowserController.nib; sourceTree = "<group>"; };
+		894011411BFCA1C9009D5F1A /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		894011421BFCA1C9009D5F1A /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		894011431BFCA1C9009D5F1A /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		894011441BFCA1C9009D5F1A /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		894011451BFCA1C9009D5F1A /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		894011461BFCA1C9009D5F1A /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		894011471BFCA1C9009D5F1A /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		894011481BFCA1C9009D5F1A /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
+		894011491BFCA1C9009D5F1A /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		8940114A1BFCA1C9009D5F1A /* MPMutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@1x.png"; sourceTree = "<group>"; };
+		8940114B1BFCA1C9009D5F1A /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		8940114C1BFCA1C9009D5F1A /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		8940114D1BFCA1C9009D5F1A /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		8940114E1BFCA1C9009D5F1A /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		8940114F1BFCA1C9009D5F1A /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		894011501BFCA1C9009D5F1A /* MPUnmutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@1x.png"; sourceTree = "<group>"; };
+		894011511BFCA1C9009D5F1A /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		894011521BFCA1C9009D5F1A /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		894011531BFCA1C9009D5F1A /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		894011541BFCA1C9009D5F1A /* RFMAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RFMAdSDK.bundle; sourceTree = "<group>"; };
+		894011551BFCA1C9009D5F1A /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		894011561BFCA1C9009D5F1A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		894011571BFCA1C9009D5F1A /* TOWebViewControllerLocalizable.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TOWebViewControllerLocalizable.bundle; sourceTree = "<group>"; };
+		894011581BFCA1C9009D5F1A /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		894011591BFCA1C9009D5F1A /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		8940115A1BFCA1C9009D5F1A /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		8940115B1BFCA1C9009D5F1A /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		8940115C1BFCA1C9009D5F1A /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		8940115D1BFCA1C9009D5F1A /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		8940115E1BFCA1C9009D5F1A /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		894011861BFCA1FF009D5F1A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		894011881BFCA33C009D5F1A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
 		89DB36A61B98263F009CA3C3 /* AppodealInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppodealInterface.cpp; sourceTree = "<group>"; };
 		89DB36A81B98266C009CA3C3 /* AppodealIOSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppodealIOSHelper.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -189,12 +271,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894011891BFCA33C009D5F1A /* Twitter.framework in Frameworks */,
+				894011871BFCA1FF009D5F1A /* JavaScriptCore.framework in Frameworks */,
 				892E068E1B970A2200135395 /* GameController.framework in Frameworks */,
 				892E06741B9709B000135395 /* AudioToolbox.framework in Frameworks */,
 				892E06751B9709B000135395 /* AVFoundation.framework in Frameworks */,
 				892E06761B9709B000135395 /* CFNetwork.framework in Frameworks */,
 				892E06771B9709B000135395 /* CoreFoundation.framework in Frameworks */,
 				892E06781B9709B000135395 /* CoreGraphics.framework in Frameworks */,
+				894011851BFCA1C9009D5F1A /* Appodeal.framework in Frameworks */,
 				892E06791B9709B000135395 /* CoreImage.framework in Frameworks */,
 				892E067A1B9709B000135395 /* CoreLocation.framework in Frameworks */,
 				892E067B1B9709B000135395 /* CoreMedia.framework in Frameworks */,
@@ -297,6 +382,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				894011881BFCA33C009D5F1A /* Twitter.framework */,
+				894011861BFCA1FF009D5F1A /* JavaScriptCore.framework */,
 				892E068D1B970A2200135395 /* GameController.framework */,
 				892E065B1B9709AF00135395 /* AudioToolbox.framework */,
 				892E065C1B9709AF00135395 /* AVFoundation.framework */,
@@ -444,10 +531,57 @@
 		892E06961B971FD500135395 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				894011371BFCA1C9009D5F1A /* Resources */,
+				8940115E1BFCA1C9009D5F1A /* Appodeal.framework */,
 				892E06981B97207B00135395 /* AppodealIOSHelper.mm */,
 				89DB36A81B98266C009CA3C3 /* AppodealIOSHelper.h */,
 			);
 			name = ios;
+			sourceTree = "<group>";
+		};
+		894011371BFCA1C9009D5F1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				894011381BFCA1C9009D5F1A /* __vungle.db */,
+				894011391BFCA1C9009D5F1A /* AdManagerAssets.bundle */,
+				8940113A1BFCA1C9009D5F1A /* appodeal_adbadge.png */,
+				8940113B1BFCA1C9009D5F1A /* appodeal_adbadge@2x.png */,
+				8940113C1BFCA1C9009D5F1A /* appodeal_adbadge@3x.png */,
+				8940113D1BFCA1C9009D5F1A /* appodeal_close.png */,
+				8940113E1BFCA1C9009D5F1A /* appodeal_pattern.png */,
+				8940113F1BFCA1C9009D5F1A /* appodeal_pattern@2x.png */,
+				894011401BFCA1C9009D5F1A /* MPAdBrowserController.nib */,
+				894011411BFCA1C9009D5F1A /* MPCloseBtn.png */,
+				894011421BFCA1C9009D5F1A /* MPCloseBtn@2x.png */,
+				894011431BFCA1C9009D5F1A /* MPCloseBtn@3x.png */,
+				894011441BFCA1C9009D5F1A /* MPCloseButtonX.png */,
+				894011451BFCA1C9009D5F1A /* MPCloseButtonX@2x.png */,
+				894011461BFCA1C9009D5F1A /* MPCloseButtonX@3x.png */,
+				894011471BFCA1C9009D5F1A /* MPDAAIcon.png */,
+				894011481BFCA1C9009D5F1A /* MPDAAIcon@2x.png */,
+				894011491BFCA1C9009D5F1A /* MPDAAIcon@3x.png */,
+				8940114A1BFCA1C9009D5F1A /* MPMutedBtn@1x.png */,
+				8940114B1BFCA1C9009D5F1A /* MPMutedBtn@2x.png */,
+				8940114C1BFCA1C9009D5F1A /* MPMutedBtn@3x.png */,
+				8940114D1BFCA1C9009D5F1A /* MPPlayBtn.png */,
+				8940114E1BFCA1C9009D5F1A /* MPPlayBtn@2x.png */,
+				8940114F1BFCA1C9009D5F1A /* MPPlayBtn@3x.png */,
+				894011501BFCA1C9009D5F1A /* MPUnmutedBtn@1x.png */,
+				894011511BFCA1C9009D5F1A /* MPUnmutedBtn@2x.png */,
+				894011521BFCA1C9009D5F1A /* MPUnmutedBtn@3x.png */,
+				894011531BFCA1C9009D5F1A /* MRAID.bundle */,
+				894011541BFCA1C9009D5F1A /* RFMAdSDK.bundle */,
+				894011551BFCA1C9009D5F1A /* StartApp.bundle */,
+				894011561BFCA1C9009D5F1A /* SVProgressHUD.bundle */,
+				894011571BFCA1C9009D5F1A /* TOWebViewControllerLocalizable.bundle */,
+				894011581BFCA1C9009D5F1A /* UnityAds.bundle */,
+				894011591BFCA1C9009D5F1A /* vg_close.png */,
+				8940115A1BFCA1C9009D5F1A /* vg_cta.png */,
+				8940115B1BFCA1C9009D5F1A /* vg_mute_off.png */,
+				8940115C1BFCA1C9009D5F1A /* vg_mute_on.png */,
+				8940115D1BFCA1C9009D5F1A /* vg_privacy.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -525,24 +659,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894011701BFCA1C9009D5F1A /* MPDAAIcon@3x.png in Resources */,
+				8940117C1BFCA1C9009D5F1A /* StartApp.bundle in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				894011621BFCA1C9009D5F1A /* appodeal_adbadge@2x.png in Resources */,
+				8940117B1BFCA1C9009D5F1A /* RFMAdSDK.bundle in Resources */,
+				894011801BFCA1C9009D5F1A /* vg_close.png in Resources */,
+				894011631BFCA1C9009D5F1A /* appodeal_adbadge@3x.png in Resources */,
+				894011691BFCA1C9009D5F1A /* MPCloseBtn@2x.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				894011791BFCA1C9009D5F1A /* MPUnmutedBtn@3x.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				894011841BFCA1C9009D5F1A /* vg_privacy.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				8940117A1BFCA1C9009D5F1A /* MRAID.bundle in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				894011761BFCA1C9009D5F1A /* MPPlayBtn@3x.png in Resources */,
+				8940117F1BFCA1C9009D5F1A /* UnityAds.bundle in Resources */,
+				8940116D1BFCA1C9009D5F1A /* MPCloseButtonX@3x.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
+				894011671BFCA1C9009D5F1A /* MPAdBrowserController.nib in Resources */,
+				894011811BFCA1C9009D5F1A /* vg_cta.png in Resources */,
+				8940116F1BFCA1C9009D5F1A /* MPDAAIcon@2x.png in Resources */,
+				894011731BFCA1C9009D5F1A /* MPMutedBtn@3x.png in Resources */,
+				8940116B1BFCA1C9009D5F1A /* MPCloseButtonX.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				894011651BFCA1C9009D5F1A /* appodeal_pattern.png in Resources */,
+				8940117D1BFCA1C9009D5F1A /* SVProgressHUD.bundle in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				894011781BFCA1C9009D5F1A /* MPUnmutedBtn@2x.png in Resources */,
+				8940116E1BFCA1C9009D5F1A /* MPDAAIcon.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				894011641BFCA1C9009D5F1A /* appodeal_close.png in Resources */,
+				8940116C1BFCA1C9009D5F1A /* MPCloseButtonX@2x.png in Resources */,
+				894011771BFCA1C9009D5F1A /* MPUnmutedBtn@1x.png in Resources */,
+				894011831BFCA1C9009D5F1A /* vg_mute_on.png in Resources */,
+				894011661BFCA1C9009D5F1A /* appodeal_pattern@2x.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				894011721BFCA1C9009D5F1A /* MPMutedBtn@2x.png in Resources */,
+				894011681BFCA1C9009D5F1A /* MPCloseBtn.png in Resources */,
+				894011751BFCA1C9009D5F1A /* MPPlayBtn@2x.png in Resources */,
+				894011611BFCA1C9009D5F1A /* appodeal_adbadge.png in Resources */,
+				894011821BFCA1C9009D5F1A /* vg_mute_off.png in Resources */,
+				894011711BFCA1C9009D5F1A /* MPMutedBtn@1x.png in Resources */,
+				8940115F1BFCA1C9009D5F1A /* __vungle.db in Resources */,
+				894011601BFCA1C9009D5F1A /* AdManagerAssets.bundle in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				894011741BFCA1C9009D5F1A /* MPPlayBtn.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				8940117E1BFCA1C9009D5F1A /* TOWebViewControllerLocalizable.bundle in Resources */,
+				8940116A1BFCA1C9009D5F1A /* MPCloseBtn@3x.png in Resources */,
 				D4F2479D9F9C2B3CEDE0CB19 /* res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

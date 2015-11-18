@@ -17,6 +17,7 @@ using namespace std;
 ////////
 
 typedef void (*AppodealNativeDelegate) ();
+typedef void (*AppodealNativeRewardDelegate) (int rewardAmount,  const char *rewardName);
 
 class AppodealIOSHelper
 {
@@ -55,6 +56,13 @@ public:
                           AppodealNativeDelegate videoDidPresent,
                           AppodealNativeDelegate videoWillDismiss,
                           AppodealNativeDelegate videoDidFinish);
+    
+    void setRewardedVideoDelegate(
+                                  AppodealNativeDelegate rewardedVideoDidLoadAd,
+                                  AppodealNativeDelegate rewardedVideoDidFailToLoadAd,
+                                  AppodealNativeDelegate rewardedVideoDidPresent,
+                                  AppodealNativeDelegate rewardedVideoWillDismiss,
+                                  AppodealNativeRewardDelegate rewardedVideoDidFinish);
 
     AppodealIOSHelper();
     virtual ~AppodealIOSHelper();
