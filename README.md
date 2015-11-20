@@ -38,6 +38,7 @@ Appodeal iOS SDK works on >= iOS 7.0 version and is compatible with both ARC and
 * Social
 * StoreKit
 * SystemConfiguration
+* Twitter
 * UIKit
 * WebKit
 
